@@ -78,7 +78,7 @@ end
 def process_input(t, input)
   s = input
 
-  puts numberhacker(lettercount(s))
+  puts pretty_output(t, numberhacker(lettercount(s)))
 end
 
 if ARGV[0].nil?
